@@ -807,6 +807,12 @@ img {
 @media (min-width: 768px) {
     .portfolio-list {
         flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .portfolio-list-item {
+        width: calc((100% - 24px) / 2);
     }
 }
 
