@@ -812,7 +812,7 @@ img {
     }
 
     .portfolio-list-item {
-        width: calc((100% - 24px) / 2);
+        width: 356px;
     }
 }
 
