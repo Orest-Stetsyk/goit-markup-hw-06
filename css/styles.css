@@ -458,8 +458,8 @@ img {
 
 
 
-.section {
-    padding-top: 96px 0;
+.futures {
+    padding: 96px 0;
 }
 
 .futures-list {
@@ -518,7 +518,12 @@ img {
 }
 
 @media (min-width: 768px) {
+    .futures {
+        padding: 96px 0;
+    }
+
     .futures-list {
+
         flex-direction: row;
         flex-wrap: wrap;
         gap: 72px 24px;
